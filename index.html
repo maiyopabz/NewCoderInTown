@@ -15,12 +15,67 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-        <div class="container">
-            <a href="#" class="navbar-brand">Front End Course</a>
+    <!--navbar logo-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+      <div class="container">
+        <a href="#" class="navbar-brand">Mj's Camp-ground</a>
+
+        <!--navbar toggle/hamburger menu. so I can collapse it when we go to smaller screen size-->
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link"> Home </a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link"> About </a>
+            </li>
+            <li class="nav-item">
+              <a href="#questions" class="nav-link"> Questions </a>
+            </li>
+            <li class="nav-item">
+              <a href="#locations" class="nav-link"> Locations </a>
+            </li>
+          </ul>
         </div>
-        
+      </div>
     </nav>
+
+    <!--first showcase -->
+
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex aling-items-center justify-content-between">
+          <div>
+            <h1>Become a <span class="text-warning">Camping Member</span></h1>
+            <p class="lead my-4">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptates itaque omnis est aspernatur, eos esse?
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptates itaque omnis est aspernatur, eos esse?
+            </p>
+            <button class="btn btn-primary btn-lg">Start Booking</button>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="/img/journey.png"
+            alt="journeybackground"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--News Letter -->
+
 
 
     <script
@@ -28,6 +83,5 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-
   </body>
 </html>
